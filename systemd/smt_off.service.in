@@ -1,6 +1,6 @@
 [Unit]
 Description=ppc64 set SMT off
-Before=libvirt-bin.service
+Before=libvirtd.service
 After=network.target
 
 [Service]
